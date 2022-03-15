@@ -50,6 +50,8 @@ deactivate && source venv/bin/activate
 
 For this activity you will write the `insert` method for the two different hash tables (`SeparateChainingTable` and `LinearProbingTable`) within the `hashtables` directory.
 
+*Start with`SeperateChainingTable`, then complete `LinearProbingTable`*
+
 All this needs to do is insert the key into the table in the correct location.  It does _not_ need to handle the case where the key already exists (that is optional).  **Assume that the user will never insert the same key twice.**
 
 You should use the built in function `hash` as your hash function (though you will need to mod by the size of the table each time you insert).
